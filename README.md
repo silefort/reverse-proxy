@@ -7,3 +7,5 @@ curl localhost:8008 -H "Host: facebook.docker.priv"
 curl localhost:8008 -H "Host: facebook.docker.priv" -u user1:password
 curl localhost:8008 -H "Host: google.docker.priv"
 
+# Follow logs
+docker logs -f some-other-nginx
